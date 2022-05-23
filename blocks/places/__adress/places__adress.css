@@ -1,0 +1,13 @@
+.places__adress{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__adress  {
+    padding-left: 16px;  
+  }
+}

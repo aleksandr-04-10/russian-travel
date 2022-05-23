@@ -1,0 +1,31 @@
+.lead__title {
+  margin: 0 auto 32px;
+  max-width: 720px;
+  max-height: 200px;
+  text-align: center;
+  font-style: normal;
+  font-size: 6rem;
+  line-height: 100px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    margin: 0 24px 32px;
+    width: calc(100%-48px);
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin: 0 auto 16px;
+    max-width: 288px;
+    max-height: 88px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 44px;
+  }
+  /* стили для малого смартфона */
+}

@@ -1,0 +1,24 @@
+.lead {
+  margin: 0 auto;
+  border: none;
+  padding-top: 56px;
+  max-width: 76.875%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding-top: 48px;
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+}

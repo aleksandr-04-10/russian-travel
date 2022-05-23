@@ -1,0 +1,27 @@
+.intro {
+  margin: 0 auto;
+  padding-top: 92px;
+  max-width: 76.875%;
+  min-height: 429px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    min-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding-top: 64px;
+    min-width: 90%;
+  }
+  /* стили для малого смартфона */
+}

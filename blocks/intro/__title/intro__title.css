@@ -1,0 +1,19 @@
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title  {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  /* стили для малого смартфона */
+}
