@@ -1,7 +1,7 @@
 .lead__subtitle {
-  margin: 0 auto 64px;
+  margin: 0 0 64px;
   width: 640px;
-  height: 72px;
+  max-height: 72px;
   text-align: center;
   font-style: normal;
   font-size: 30px;
@@ -9,15 +9,26 @@
   font-weight: 400;
 }
 
+.lead__subtitle:nth-child(2n) {
+  margin: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    margin: 0 auto 56px;
+    margin: 0 0 56px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    margin: 0 auto 56px;
+    margin: 0 0 56px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .lead__subtitle {
+    font-size: 4vw;
+    width: 80%;
   }
 }
 
@@ -30,6 +41,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    text-indent: 0;
   }
   /* стили для малого смартфона */
 }

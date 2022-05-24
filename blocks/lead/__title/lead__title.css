@@ -1,31 +1,29 @@
 .lead__title {
-  margin: 0 auto 32px;
-  max-width: 720px;
+  margin:0 0 32px;
+  width: 720px;
   max-height: 200px;
-  text-align: center;
   font-style: normal;
-  font-size: 6rem;
+  font-size: 96px;
   line-height: 100px;
   font-weight: 900;
+  text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 740px) {
   .lead__title {
-    margin: 0 24px 32px;
-    width: calc(100%-48px);
-    font-size: 6rem;
+    font-size: 10vw;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
     margin: 0 auto 16px;
-    max-width: 288px;
+    max-width: 90%;
     max-height: 88px;
     font-style: normal;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 40px;
     line-height: 44px;
   }
-  /* стили для малого смартфона */
 }

@@ -1,4 +1,5 @@
 .footer__copyright {
+  width: 188px;
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -6,8 +7,28 @@
   line-height: 16px;
 }
 
+@media screen and (max-width: 728px) {
+  .footer__copyright {
+    text-align: right;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__copyright {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
     row-gap: 48px;
+    text-align: left;
   }
 }

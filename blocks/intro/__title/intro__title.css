@@ -4,15 +4,29 @@
   text-align: left;
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
+  font-size: 3.375rem;
   line-height: 58px;
+}
+
+@media screen and (max-width: 845px) {
+  .intro__title  {
+    font-size: 3.05rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title  {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .intro__title  {
+    width: 100%;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 33px;
     line-height: 35px;
   }
   /* стили для малого смартфона */
