@@ -7,4 +7,4 @@
 ## Системные требования:
 * HTML5, CSS
 ## Адрес проекта:
-https://aleksandr-04-10.github.io/russian-travel/
+https://aleksandr-04-10.github.io/russian-travel/index.html
