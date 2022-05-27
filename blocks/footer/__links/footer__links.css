@@ -11,5 +11,6 @@
   .footer__links {
     width: 69.53%;
     column-gap: 2.34%;
+    row-gap: 32px;
   }
 }

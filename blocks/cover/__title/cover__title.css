@@ -2,7 +2,6 @@
   margin: 0 auto 32px;
   padding-top: 245px;
   max-width: 590px;
-  max-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -36,7 +35,6 @@
   .cover__title {
     padding-top: 33px;
     max-width: 288px;
-    max-height: 70px;
     margin: 0 auto 16px;
     font-size: 10vw;
     line-height: 35px;

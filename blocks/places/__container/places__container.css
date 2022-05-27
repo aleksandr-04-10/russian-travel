@@ -36,6 +36,6 @@
 
 @media screen and (max-width: 320px) {
   .places__container  {
-
+    row-gap: 32px;
   }
 }
