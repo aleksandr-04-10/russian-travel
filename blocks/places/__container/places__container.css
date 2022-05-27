@@ -21,11 +21,21 @@
   .places__container  {
     grid-template-columns: repeat(auto-fit, minmax(340px,352px));
     column-gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .places__container  {
+    grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: normal;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__container  {
-    grid-template-columns: repeat(auto-fit, minmax(288px,320px));
+
   }
 }

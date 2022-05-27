@@ -10,3 +10,30 @@
 .places__link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .places__link{
+    font-size: 1.758vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__link{
+    font-size: 2.344vw;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .places__link{
+    font-size: 3.711vw;
+    
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__link{
+    font-size: 5.625vw;
+  }
+}
+

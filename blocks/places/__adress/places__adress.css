@@ -5,9 +5,16 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 465px) {
+  .places__adress   {
+    margin: 0;
+    width: calc(100% - 32px);
+  }
+}
 
 @media screen and (max-width: 320px) {
   .places__adress  {
-    padding-left: 16px;  
+    padding-left: 16px;
+
   }
 }
